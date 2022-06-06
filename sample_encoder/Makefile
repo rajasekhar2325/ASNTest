@@ -1,0 +1,1 @@
+cc -I. -I./include -o encode encoder.c src/*.c

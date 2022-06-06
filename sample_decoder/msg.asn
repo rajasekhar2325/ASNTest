@@ -1,0 +1,13 @@
+SampleModule DEFINITIONS ::= BEGIN
+MessageAB ::= SEQUENCE {
+msgType UTF8String,
+unqID INTEGER,
+msg UTF8String
+}
+
+MessageBA ::= SEQUENCE {
+msgType UTF8String,
+unqID INTEGER,
+msg UTF8String
+}
+END
